@@ -15,7 +15,7 @@ return new class extends Migration
     {
         Schema::create('seminars', function (Blueprint $table) {
             $table->id();
-            $table->string('number');
+            $table->string('name');
             $table->unsignedBigInteger('course_id');
             $table->timestamps();
 

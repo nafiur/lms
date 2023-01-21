@@ -3,6 +3,10 @@
 namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+
+use App\Models\Course;
+use App\Models\Lead;
+use App\Models\Seminar;
 use App\Models\User;
 use Illuminate\Database\Seeder;
 use Spatie\Permission\Models\Role;
@@ -53,6 +57,23 @@ class DatabaseSeeder extends Seeder
 
         $user->assignRole($role);
         
-        
+        //create leads
+        Lead::factory()->count(100)->create();
+        Course::factory()->count(100)->create();
+        Seminar::factory()->count(100)->create();
+
+        // //course create
+        // Course::create()->count([
+        //     'name' => 'Laravel',
+        //     'description' => 'Laravel is a popular web development framework for developing ',
+        //     'image' => 'http://laravel.com/img/logomark.min.svg',
+            
+        // ]);
+
+        // //Seminars
+        // Seminar::factory()->count(10)->create();
+
+
+
     }
 }
