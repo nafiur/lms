@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Lead extends Model
 {
     use HasFactory;
-
+//hello world
     public function notes(){
         return $this->hasMany(Note::class);
     }
