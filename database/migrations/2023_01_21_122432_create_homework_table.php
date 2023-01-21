@@ -15,7 +15,7 @@ return new class extends Migration
     {
         Schema::create('homework', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
+            $table->string('name')->nullable();
             $table->string('description');
             $table->unsignedBigInteger('seminar_id')->default(0);
             $table->unsignedBigInteger('exam_id')->default(0);
@@ -23,9 +23,9 @@ return new class extends Migration
             $table->string('link');
             $table->timestamps();
 
-            $table->foreignId('seminar_id')->references('id')->on('seminars')->onDelete('cascade');
-            $table->foreignId('exam_id')->references('id')->on('exams')->onDelete('cascade');
-            $table->foreignId('user_id')->references('id')->on('users')->onDelete('cascade');
+            $table->foreign('seminar_id')->references('id')->on('seminars')->onDelete('cascade');
+            $table->foreign('exam_id')->references('id')->on('exams')->onDelete('cascade');
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
         });
     }
 

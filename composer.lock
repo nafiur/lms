@@ -2154,7 +2154,7 @@
         },
         {
             "name": "php-flasher/flasher",
-            "version": "v1.13.0",
+            "version": "v1.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-flasher/flasher.git",
@@ -2216,7 +2216,7 @@
                 "yoeunes"
             ],
             "support": {
-                "source": "https://github.com/php-flasher/flasher/tree/v1.13.0"
+                "source": "https://github.com/php-flasher/flasher/tree/v1.13.1"
             },
             "funding": [
                 {
@@ -2244,16 +2244,16 @@
         },
         {
             "name": "php-flasher/flasher-laravel",
-            "version": "v1.13.0",
+            "version": "v1.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-flasher/flasher-laravel.git",
-                "reference": "9e8ef1a175b1733276e1d21df42228e56963b651"
+                "reference": "19a6f8402747cc99350e1f340a851fa47fda4929"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-flasher/flasher-laravel/zipball/9e8ef1a175b1733276e1d21df42228e56963b651",
-                "reference": "9e8ef1a175b1733276e1d21df42228e56963b651",
+                "url": "https://api.github.com/repos/php-flasher/flasher-laravel/zipball/19a6f8402747cc99350e1f340a851fa47fda4929",
+                "reference": "19a6f8402747cc99350e1f340a851fa47fda4929",
                 "shasum": ""
             },
             "require": {
@@ -2315,7 +2315,7 @@
                 "yoeunes"
             ],
             "support": {
-                "source": "https://github.com/php-flasher/flasher-laravel/tree/v1.13.0"
+                "source": "https://github.com/php-flasher/flasher-laravel/tree/v1.13.1"
             },
             "funding": [
                 {
@@ -2339,11 +2339,11 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2023-01-15T22:30:32+00:00"
+            "time": "2023-01-21T13:25:13+00:00"
         },
         {
             "name": "php-flasher/flasher-sweetalert",
-            "version": "v1.13.0",
+            "version": "v1.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-flasher/flasher-sweetalert.git",
@@ -2406,7 +2406,7 @@
                 "yoeunes"
             ],
             "support": {
-                "source": "https://github.com/php-flasher/flasher-sweetalert/tree/v1.13.0"
+                "source": "https://github.com/php-flasher/flasher-sweetalert/tree/v1.13.1"
             },
             "funding": [
                 {
@@ -2434,7 +2434,7 @@
         },
         {
             "name": "php-flasher/flasher-sweetalert-laravel",
-            "version": "v1.13.0",
+            "version": "v1.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-flasher/flasher-sweetalert-laravel.git",
@@ -2505,7 +2505,7 @@
                 "yoeunes"
             ],
             "support": {
-                "source": "https://github.com/php-flasher/flasher-sweetalert-laravel/tree/v1.13.0"
+                "source": "https://github.com/php-flasher/flasher-sweetalert-laravel/tree/v1.13.1"
             },
             "funding": [
                 {
